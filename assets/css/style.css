@@ -1880,3 +1880,31 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+/* ============================= */
+/* Certifications override      */
+/* ============================= */
+
+.certifications .testimonials-avatar-box {
+  position: static;
+  transform: none;
+  margin-bottom: 12px;
+  box-shadow: none;
+}
+
+.certifications .content-card {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.certifications .testimonials-item-title {
+  margin-left: 0;
+}
+
+.certifications .testimonials-avatar-box img {
+  max-height: 50px;
+  width: auto;
+  object-fit: contain;
+}
